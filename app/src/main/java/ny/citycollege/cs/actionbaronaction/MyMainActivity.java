@@ -2,7 +2,7 @@ package ny.citycollege.cs.actionbaronaction;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
+
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,6 +28,8 @@ public class MyMainActivity extends Activity {
         mActionBarBackground = new ColorAnimationDrawable();
 
         getActionBar().setBackgroundDrawable(mActionBarBackground);
+        getActionBar().setDisplayShowTitleEnabled(false);
+        getActionBar().setDisplayShowTitleEnabled(true);
 //        if(Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1){
 //            mActionBarBackground.setCallback(mDrawableCallback);
 //        }else {

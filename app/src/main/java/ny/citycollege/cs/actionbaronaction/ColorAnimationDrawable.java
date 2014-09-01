@@ -18,7 +18,7 @@ import java.util.Random;
  */
 public class ColorAnimationDrawable extends Drawable implements Animatable {
 
-    private static final long FRAME_DURATION = 1000 / 60;
+    private static final long FRAME_DURATION = 100/ 60;
     private static final long ANIMATION_DURATION = 1500;
 
     private static final int ACCCENT_COLOR = 0x33FFFFFF;
